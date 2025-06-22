@@ -1,10 +1,10 @@
+import dotenv from "dotenv";
+dotenv.config();
+
 import express from "express";
 import cors from "cors";
-import dotenv from "dotenv";
-import chatRoutes from "./routes/chat";
 
-dotenv.config();
-console.log("OpenAI Key Loaded?", process.env.OPENAI_API_KEY ? true : false);
+import chatRoutes from "./routes/chat";
 
 
 const app = express();
