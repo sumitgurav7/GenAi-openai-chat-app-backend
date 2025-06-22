@@ -1,0 +1,13 @@
+# Node stuff
+node_modules/
+dist/
+
+# Env config
+.env
+
+# Logs
+*.log
+
+# IDE junk
+.vscode/
+.DS_Store
